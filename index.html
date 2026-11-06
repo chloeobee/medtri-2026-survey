@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#007a42"><meta name="robots" content="noindex,nofollow">
+  <title>2026 醫檢年會｜客戶滿意度調查</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+    <header><img id="logo" src="logo.png" alt="MedTri 醫兆 Logo"><span id="company"></span></header>
+    <main>
+      <p class="badge" id="edition"></p><h1 id="title"></h1><p class="intro" id="intro"></p>
+      <p class="notice" id="modeNotice" role="status"></p>
+      <div id="progressArea"><div class="progress-label"><span id="stepLabel"></span><span id="stepCount"></span></div><progress id="progress" max="100" value="0" aria-label="填答進度"></progress></div>
+      <form id="survey" novalidate>
+        <div class="trap" aria-hidden="true"><label>請保留空白<input id="website" tabindex="-1" autocomplete="off"></label></div>
+        <section id="screen" aria-label="問卷題目"></section>
+        <p id="error" class="error" role="alert" tabindex="-1"></p>
+        <div class="actions"><button id="back" class="back" type="button">上一步</button><button id="next" type="submit">下一步</button></div>
+      </form>
+      <section id="done" class="done" tabindex="-1" hidden></section>
+      <p id="alternative" hidden><a id="nativeLink" target="_blank" rel="noopener noreferrer">改用 Google 原生備援表單</a></p>
+      <p id="privacy" class="privacy"></p>
+    </main>
+    <footer><span id="footerCompany"></span> · 問卷版本 <span id="version"></span></footer>
+  </div>
+  <noscript>本問卷需要啟用 JavaScript。請洽攤位人員協助。</noscript>
+  <script src="config.js"></script><script src="core.js"></script><script src="script.js"></script>
+</body></html>
