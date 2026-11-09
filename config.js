@@ -1228,6 +1228,12 @@ var SURVEY_CONFIG = {
       "aliases": [
         "台東馬偕"
       ]
+    },
+    {
+      "name": "花蓮慈濟醫院",
+      "aliases": [
+        "花慈"
+      ]
     }
   ],
   "steps": [
